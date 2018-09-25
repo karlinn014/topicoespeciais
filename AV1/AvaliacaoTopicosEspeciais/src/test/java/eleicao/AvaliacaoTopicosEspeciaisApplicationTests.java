@@ -1,4 +1,4 @@
-package fvs.edu.br.main;
+package eleicao;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
