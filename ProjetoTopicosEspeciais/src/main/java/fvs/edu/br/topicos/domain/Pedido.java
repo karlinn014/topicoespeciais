@@ -42,11 +42,11 @@ public class Pedido implements Serializable{
 	
 	@OneToOne(cascade=CascadeType.ALL, mappedBy="pedido")
 	private Pagamento pagamento;
-	
-	public Pedido () {
+
+	public Pedido() {
 		
 	}
-
+	
 	public Pedido(Integer id, Date instante, Cliente cliente, Endereco enderecoEntrega) {
 		super();
 		this.id = id;
@@ -127,6 +127,7 @@ public class Pedido implements Serializable{
 			return false;
 		return true;
 	}
+
 	
 	
 	
